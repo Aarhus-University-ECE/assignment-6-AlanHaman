@@ -1,9 +1,7 @@
 #include <stdio.h>
 #include <assert.h>
 
-int max(int* numbers, int size)
-{
-    // Excercise 2
+// Excercise 2
  /*
 Function that finds the maximum value in the array
 */
@@ -22,7 +20,7 @@ int max(int *numbers, int size) {
     }
   }
   return max_value;
-}
+
 
     return -1;
-}
+  }
