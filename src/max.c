@@ -21,6 +21,4 @@ int max(int *numbers, int size) {
   }
   return max_value;
 
-
-    return -1;
   }
