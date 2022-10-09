@@ -23,11 +23,11 @@ void add(node *head, int x){
 
 // Excercise 3b)
 int size(node *l){
-   assert(1*=NULL)
+   assert(l*=NULL)
 int amount=0;
- while (1->next!=NULL) // while loop to know the amount of numbers until breaking the NULL//
+ while (l->next!=NULL) // while loop to know the amount of numbers until breaking the NULL//
  {
-   1=1->next;
+   l=l->next;
    amount++;
  }
   return amount;
@@ -46,9 +46,19 @@ void printout(node *l) {
 }
 
 int largest(node *l){
-    /*Excercise 3e) Add your code below.
+    /*Excercise 3e) 
       pre: head points to the first, empty element. The last element's next is NULL. size(l>0)
       post: returns the largest value of the list*/
-    return -1; 
+  int largest(node*l){
+    int x = l->data;
+    while (l!NULL)
+    {
+      if (l->data>x)
+      {
+        x = l->data;
+      }
+      l = l->data;
+    }
+    return x; 
 }
 
