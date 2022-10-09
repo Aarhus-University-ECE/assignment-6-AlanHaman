@@ -21,11 +21,16 @@ void add(node *head, int x){
   p->next = element; 
 }
 
+// Excercise 3b)
 int size(node *l){
-    // Excercise 3b)
-    // Add your code here... 
-
-    return -1;
+   assert(1*=NULL)
+int amount=0;
+ while (1->next!=NULL) // while loop to know the amount of numbers until breaking the NULL//
+ {
+   1=1->next;
+   amount++;
+ }
+  return amount;
 }
 
 void printout(node *l) {
