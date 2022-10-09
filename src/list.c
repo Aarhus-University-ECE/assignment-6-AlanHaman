@@ -40,6 +40,7 @@ void printout(node *l) {
     node *p = l->next;
     while (p!=NULL){
       printf("%d, ",p->data);
+      p=p->next; // to update the value of p, so we dont get stuck//
     }
     printf("\n");
 }
