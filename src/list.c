@@ -51,9 +51,10 @@ int largest(node *l){
       post: returns the largest value of the list*/
   int largest(node*l){
     int x = l->data;
+   // while loop to finde the highest number in the array//
     while (l!NULL)
     {
-      if (l->data>x)
+      if (l->data > x)
       {
         x = l->data;
       }
