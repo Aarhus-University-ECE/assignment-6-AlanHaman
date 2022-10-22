@@ -15,7 +15,7 @@ int max(int *numbers, int size) {
   // for loop to check if the next number in the array is bigger then the
   // previous one
   for (int j = 0; j < size; j++) {
-    if (*numbers < *(numbers + j)) {
+    if (max_value < *(numbers + j)) {
       max_value = *(numbers + j);
     }
   }
